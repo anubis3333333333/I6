@@ -55,4 +55,24 @@
 //     Console.WriteLine("Доступ заблокирован");
 // }
 
+// int n =  Convert.ToInt32(Console.ReadLine());
+// for (int i = 1; i <= n; i++){
+//     for (int j = 1; j <= 10; j++){
+//         Console.WriteLine($"{i}*{j}={i * j}");
+        
+//     }
+    
+    
+// }
 
+// for (int i = 1; i <= 30; i++){
+//     if (i % 10 == 0 && i > 20){
+//         break; 
+//     }
+
+//     if (i % 3 == 0){
+//         continue;
+//     }
+
+//     Console.WriteLine(i);
+// }
