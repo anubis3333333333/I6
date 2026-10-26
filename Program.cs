@@ -35,3 +35,24 @@
 // Console.WriteLine($"Отрицательных чисел введено: {negativeCount}");
 
 
+
+// bool isAccessGranted = false;
+// for (int attempt = 1; attempt <= 3; attempt++){
+//     Console.Write("Введите пароль: ");
+//     string password = Console.ReadLine();
+
+//     if (password == "qwerty"){
+//         isAccessGranted = true; 
+//         break;                  
+//     }
+// }
+
+
+// if (isAccessGranted){
+//     Console.WriteLine("Доступ разрешён");
+// }
+// else{
+//     Console.WriteLine("Доступ заблокирован");
+// }
+
+
