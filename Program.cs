@@ -106,3 +106,28 @@
 //     Console.WriteLine($"Вы проиграли, число было {secret}");
 // }
 
+
+Console.Write("Введите целое положительное число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+int originalNumber = n; 
+int sumOfDigits = 0;
+int countOfDigits = 0;
+
+
+if (n == 0){
+    sumOfDigits = 0;
+    countOfDigits = 1;
+}
+else{
+    while (n > 0){
+        int lastDigit = n % 10; 
+        sumOfDigits += lastDigit; 
+        countOfDigits++;          
+        n = n / 10;              
+    }
+}
+
+Console.WriteLine($"Число: {originalNumber}");
+Console.WriteLine($"Сумма цифр: {sumOfDigits}");
+Console.WriteLine($"Количество цифр: {countOfDigits}");

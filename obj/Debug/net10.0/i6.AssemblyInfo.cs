@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("i6")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b2d44ae87a9e54a61c58e5490d54c0b86643a92")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6aaa2106ca0473d56c392a06b7a0bf60357a0a2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("i6")]
 [assembly: System.Reflection.AssemblyTitleAttribute("i6")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
