@@ -76,3 +76,33 @@
 
 //     Console.WriteLine(i);
 // }
+
+
+// int secret = 42; 
+// int maxAttempts = 5; 
+// bool isWon = false;
+
+// Console.WriteLine("Игра «Угадай число»");
+// Console.WriteLine($"Я загадал число. У вас есть {maxAttempts} попыток, чтобы отгадать его.");
+
+// for (int attempt = 1; attempt <= maxAttempts; attempt++){
+//     Console.Write($"Попытка №{attempt}. Введите ваше число: ");
+//     int guess = Convert.ToInt32(Console.ReadLine());
+
+//     if (guess == secret){
+//         Console.WriteLine($"Победа! Попыток: {attempt}");
+//         isWon = true;
+//         break; 
+//     }
+//     else if (guess < secret){
+//         Console.WriteLine("Загаданное число Больше");
+//     }
+//     else{
+//         Console.WriteLine("Загаданное число Меньше");
+//     }
+// }
+
+// if (!isWon){
+//     Console.WriteLine($"Вы проиграли, число было {secret}");
+// }
+
